@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web-site</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="http"><img src="./img/my first website.jpg" alt="My First Web-site" width="250"></a></h1>
+    </header>
+    <section>
+        <h2>홈페이지에 대해 정보</h2>
+        <article><h3>이 홈페이지는 제가 HTML를 공부한 지식을 중심으로 만든 것입니다.<br>관심을 가지시고 홈페이지를 확인해 주시면 기뻐하겠습니다!</h3></article>
+        <aside>HTML를 공부한 지 얼마 안 돼서 훌륭하지 않습니다ㅜㅜ</aside>
+        
+        <hr>
+
+        <h3>안녕하세요! 아래 있는 것에 관심을 가지시면 기쁩니다!</h3>
+        <p>성함 <input type="text" name="id" maxlength="8" size="8"></p>
+        <p>직업<br>
+            <input type="radio" name="gender1">교수/교사
+            <input type="radio" name="gender1">학생
+            <input type="radio" name="gender1">기타<input type="text" name="id" maxlength="10" size="10">  
+        </p>
+        <p>성별<br>
+            <input type="radio" name="gender1">남자
+           <input type="radio" name="gender1">여자
+        </p>
+        <p>취미<br>
+            <input type="checkbox" name="hobby1">공부
+            <input type="checkbox" name="hobby2">축구
+            <input type="checkbox" name="hobby3">게임
+            <input type="checkbox" name="hobby4">운동
+        </p>
+        
+        <p>생년월일<br><input type="date" name="maxdate" max="1960-12-31" min="2023-06-16"></p>
+
+        <p><input type="button" onclick="alert('안녕하세요! 관심을 가지고 주세요')" value="눌러 보세요!"></p>
+
+        <h3>다음으로 우리 반 친구들을 위해 강의 시간표를 만들어 봤습니다!</h3>
+
+        <table width="700" cellspacing="3" cellpadding="5" bgcolor="f1f1f1">
+            <tr align="center" id="bgcolor">
+                <td width="200"></td>
+                <td width="200">월</td>
+                <td width="200">화</td>
+                <td width="200">수</td>
+                <td width="200">목</td>
+                <td width="200">금</td>
+                <td width="200">토</td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">1교시</td>
+                <td rowspan="2" id="bgcolor1">IT기술과 역사</td>
+                <td></td>
+                <td></td>
+                <td rowspan="3" id="bgcolor1">MIoT설계</td>
+                <td rowspan="2" id="bgcolor1">영어</td>
+                <td></td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">2교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">3교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="bgcolor1">3D프린팅과창업</td>
+                <td></td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">4교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="3" id="bgcolor1">M화면구현</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">5교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">6교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">7교시</td>
+                <td></td>
+                <td rowspan="3" id="bgcolor1">M응용SW기초기술활용</td>
+                <td></td>
+                <td rowspan="3" id="bgcolor1">M컴퓨터네트워크및운영체제</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">8교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr align="center" bgcolor="ffffff">
+                <td id="bgcolor">9교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <hr>
+        <h3>한국에 와서 가 보고 좋았던 곳들의 사진들입니다!</h3>
+        <p><img src="./img/daejon.jpg" alt="대천해수욕장" width="200">
+            <br>#대천해수욕장</p>
+
+        <p><img src="./img/banpo.jpg" alt="반포한한강공원" width="200">
+            <br>#반포한한강공원</p>
+
+        <p><img src="./img/busan.jpg" alt="부산/해운대해수욕장" width="200">
+            <br>#부산/해운대해수욕장</p>
+
+        <p><img src="./img/lotte_world.jpg" alt="LOTTE WORLD ADVANTURE" width="200">
+            <br>#LOTTE WORLD ADVANTURE</p>
+
+        <p><img src="./img/everland.jpg" alt="EVERLAND" width="200">
+            <br>#EVERLAND</p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>경복대학교 대학생 ABDUGANIEV FAYZULLO</p>
+        <p>연락처: 010-5592-3252</p>
+        <p>이메일: abduganiyevfayzullo0303@gmail.com</p>
+    </footer>
+</body>
+</html>
